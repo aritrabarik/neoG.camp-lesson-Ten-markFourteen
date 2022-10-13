@@ -16,13 +16,16 @@ function calculateProfitLoss(initial, quantity, current) {
   if (initial < current) {
     var profit = (current - initial) * quantity;
     var profitPercent = (profit / initial) * 100;
+    outputBox.style.color = "green";
     showOutput(`Profit is: ${profit} and Profit % is ${profitPercent}`);
   } else if (initial > current) {
     var loss = (initial - current) * quantity;
     var lossPercent = (loss / initial) * 100;
+    outputBox.style.color = "red";
     showOutput(`Loss is: ${loss} and Loss % is ${lossPercent}`);
   } else {
-    showOutput("No pain no gain and no gain no pain");
+    outputBox.style.color = "white";
+    showOutput("No pain No gain, and no gain no pain :)");
   }
 }
 

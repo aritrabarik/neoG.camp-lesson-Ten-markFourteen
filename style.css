@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 1.4rem 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  margin-left: 35%;
+  width: 25rem;
+}
+
+#initial-price,
+#stocks-quantity,
+#current-price {
+  display: block;
+}
+
+button {
+  border: none;
+  background-color: #2563eb;
+  color: #f3f3f3;
+  font-weight: 700;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 25rem;
+  margin-top: 1rem;
+  margin-left: 36%;
+}
+
+#output-box {
+  margin: 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
