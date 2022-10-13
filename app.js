@@ -24,7 +24,7 @@ function calculateProfitLoss(initial, quantity, current) {
     outputBox.style.color = "red";
     showOutput(`Loss is: ${loss} and Loss % is ${lossPercent}`);
   } else {
-    outputBox.style.color = "white";
+    outputBox.style.color = "black";
     showOutput("No pain No gain, and no gain no pain :)");
   }
 }
