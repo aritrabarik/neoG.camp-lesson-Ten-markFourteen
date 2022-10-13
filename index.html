@@ -4,35 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mark 14 - Profit Loss App</title>
+    <title>Stocks Value Predictor</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Where's my Stonks?</h1>
-    <div>
-      <label for="initial-price"
-        >Initial Price:
-        <input
-          type="number"
-          placeholder="Enter Initial Price"
-          id="initial-price"
-      /></label>
-      <label for="quantity"
-        >Quantity of Stocks:
-        <input
-          type="number"
-          placeholder="Enter Number of Stocks"
-          id="stocks-quantity"
-      /></label>
-      <label for="current-price"
-        >Current Price:
-        <input
-          type="number"
-          placeholder="Enter Current Price"
-          id="current-price"
-      /></label>
+    <div id="input-box">
+      <input
+        type="number"
+        placeholder="Enter Initial Price"
+        id="initial-price"
+      />
+      <input
+        type="number"
+        placeholder="Enter Number of Stocks"
+        id="stocks-quantity"
+      />
+      <input
+        type="number"
+        placeholder="Enter Current Price"
+        id="current-price"
+      />
       <button id="submit-btn">Tell Me!!</button>
     </div>
     <div id="output-box"></div>
-    <script src="./app.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
