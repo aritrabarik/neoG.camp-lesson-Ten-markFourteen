@@ -1,18 +1,23 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
-  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 1rem;
 }
 
 input {
-  padding: 1.4rem 1rem;
+  display: block;
+  margin: auto;
+  padding: 1rem;
   font-size: 0.8rem;
   margin-bottom: 2rem;
-  margin-left: 35%;
-  width: 25rem;
+  text-align: center;
+  width: 20%;
 }
 
 #initial-price,
@@ -22,20 +27,21 @@ input {
 }
 
 button {
+  display: block;
+  margin: auto;
   border: none;
   background-color: #2563eb;
   color: #f3f3f3;
   font-weight: 700;
-  padding: 1.2rem;
+  padding: 1rem;
   text-transform: uppercase;
   cursor: pointer;
-  width: 25rem;
-  margin-top: 1rem;
-  margin-left: 36%;
+  width: 25%;
+  margin-top: 3.2rem;
 }
 
 #output-box {
-  margin: 5rem;
+  margin: 3.5rem;
   text-align: center;
   font-size: 1.5rem;
 }
